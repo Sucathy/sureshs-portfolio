@@ -4,7 +4,7 @@
   <br />
   <br />
 
-  <h2 align="center">SUresh s - Personal Portfolio Website</h2>
+  <h2 align="center">Suresh s - Personal Portfolio Website</h2>
 
  Suresh is a fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
