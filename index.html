@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Suresh s</title>
+    <meta
+      name="title"
+      content="Suresh - Get your product identity from me."
+    />
+    <meta
+      name="description"
+      content="This is a personal portfolio "
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/font/font.css" />
+    
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/about.jpeg" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <span class="line"></span>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/s-logo.jpeg"
+            width="84"
+            height="26"
+            alt="logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/s-logo.jpeg"
+                width="84"
+                height="26"
+                alt="logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#project" class="navbar-link" data-nav-link>Project</a>
+            </li>
+
+            <li>
+              <a href="#review" class="navbar-link" data-nav-link>Review</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="https://drive.google.com/file/d/1w2NfOidCbs0lIgIsthFAiAiBjHyBZ5b9/view?usp=drivesdk" class="btn btn:hover">
+          <span class="span">Download CV </span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button
+          class="nav-open-btn btn:hover"
+          aria-label="open menu"
+          data-nav-toggler
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <div class="hero text-center" id="home">
+          <div class="container">
+            <div class="banner-outline has-after">
+              <div
+                class="hero-banner img-holder has-after"
+                style="--width: 500; --height: 680"
+                data-tilt
+              >
+                <img
+                  src="./assets/images/hero.jpg"
+                  width="500"
+                  height="680"
+                  alt="Drew Hays"
+                  class="img-cover"
+                />
+              </div>
+
+              <span class="span title">suresh s</span>
+            </div>
+
+            <div class="hero-content">
+              <h1 class="h1 title">software developer</h1>
+
+              <div class="wrapper">
+                <a href="https://drive.google.com/file/d/1w2NfOidCbs0lIgIsthFAiAiBjHyBZ5b9/view?usp=drivesdk" class="btn btn:hover">
+                  <span class="span">Download CV</span>
+
+                  <ion-icon
+                    name="cloud-download-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+                </a>
+
+                <p class="hero-text">html css JavaScript android</p>
+              </div>
+            </div>
+
+            <img
+              src="./assets/images/hero-shape-1.png"
+              width="559"
+              height="232"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/hero-shape-2.png"
+              width="1358"
+              height="497"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </div>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="service text-center"
+          aria-label="my services"
+          id="service"
+        >
+          <div class="container">
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-1.svg"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">
+                      Web <br />
+                      Development
+                    </a>
+                  </h3>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-2.svg"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">
+                      Android <br />
+                      Studio
+                    </a>
+                  </h3>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-3.svg"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">
+                      Spring <br />
+                      Boot
+                    </a>
+                  </h3>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-icon-4.svg"
+                      width="80"
+                      height="80"
+                      loading="lazy"
+                      alt="service icon"
+                    />
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#"> react.js<br /> </a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" aria-label="about-me" id="about">
+          <div class="container">
+            <div class="tab-container">
+              <ul class="tab-btn-list">
+                <li class="tab-btn-item">
+                  <button class="tab-btn title h6 active" data-tab-btn="about">
+                    About Me
+                  </button>
+                </li>
+
+                <li class="tab-btn-item">
+                  <button class="tab-btn title h6" data-tab-btn="skillset">
+                    Skillset
+                  </button>
+                </li>
+
+                <li class="tab-btn-item">
+                  <button class="tab-btn title h6" data-tab-btn="interview">
+                    Hobbies
+                  </button>
+                </li>
+
+               
+
+                <li class="tab-btn-item">
+                  <button class="tab-btn title h6" data-tab-btn="exhibition">
+                   My Services
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content active" data-tab-content="about">
+                <div class="grid-list">
+                  <figure
+                    class="about-banner img-holder"
+                    style="--width: ; --height: "
+                    data-tilt
+                  >
+                    <img
+                      src="./assets/images/about.jpeg"
+                      width="570"
+                      height="420"
+                      loading="lazy"
+                      alt="about banner"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="about-content">
+                    <h2 class="h4 title section-title">
+                     PROFILE
+                    </h2>
+
+                    <p class="section-text">
+                      Results-driven professional seeking a challenging position in a dynamic work environment,
+                      utilizing my strong technical skills to drive company growth.
+                      I am eager to apply my expertise in alignment with organizational requirements,
+                      fostering mutual growth and consistently enhancing performance
+                    </p>
+
+                    <ul class="about-list">
+                      <li class="about-item">
+                        <p class="list-title">Name</p>
+
+                        <span class="span title h5">Suresh S</span>
+                      </li>
+
+                      <li class="about-item">
+                        <p class="list-title">Phone Number</p>
+
+                        <span class="span title h5">6363203639</span>
+                      </li>
+
+                      <li class="about-item">
+                        <p class="list-title">Email Address</p>
+
+                        <span class="span title h5">susuresh158@gmail.com</span>
+                      </li>
+
+                      <li class="about-item">
+                        <p class="list-title">Social Network</p>
+
+                        <div class="social-list">
+                          <a href="https://github.com/Sucathy" class="social-link" title="Facebook">
+                            <ion-icon name="logo-github"></ion-icon>
+                          </a>
+
+                          <!-- <a href="#" class="social-link" title="Behance">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                          </a> -->
+
+                          <a href="https://www.linkedin.com/in/suresh-s-bb54b3254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" title="Linkedin">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                          </a>
+
+                          <!-- <a href="#" class="social-link" title="Dribbble">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                          </a> -->
+                            </a>
+                          </li>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content" data-tab-content="skillset">
+                <div class="grid-list">
+                  <div class="skill-content">
+                    <h3 class="h4 title section-title">
+                     here is the my skills
+                    </h3>
+
+                    <p class="section-text">
+                     challenging position to work environment where i can contribute 
+                     to the company growth using my excellent skills
+                    </p>
+
+                    <ul class="skill-list">
+                      <li>
+                        
+                        <div class="skill-wrapper">
+                          <span class="span">Web Development(HTML,CSS,JavaScript,React.js,)</span>
+                        </div>
+
+                      </li>
+                        <li>
+                        
+                          <div class="skill-wrapper">
+                            <span class="span">Android-app Development</span>
+                          </div>
+  
+                        </li>
+                        
+                          <div class="skill-wrapper">
+                            <span class="span">Spring Boot</span>
+                          </div>
+  
+                        </li>
+
+                      <li>
+
+                        <div class="skill-wrapper">
+                          <span class="span">PHP(xampp),SQL</span>
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+
+                  <figure
+                    class="skill-banner img-holder"
+                    style="--width: 570; --height: 420"
+                    data-tilt
+                  >
+                    <img
+                      src="./assets/images/skill-banner.jpg"
+                      width="570"
+                      height="420"
+                      loading="lazy"
+                      alt="skill banner"
+                      class="img-cover"
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div class="tab-content" data-tab-content="interview">
+                <div class="grid-list">
+                  <div
+                    class="interview-card img-holder"
+                    style="--width: 376; --height: 420"
+                    data-tilt
+                  >
+                    <img
+                      src="./assets/images/gaming-logo.jpeg"
+                      width="376"
+                      height="420"
+                      loading="lazy"
+                      alt="interview 1"
+                      class="img-cover"
+                    />
+                    
+                    <button class="btn btn:hover">Gaming</button>
+                  </div>
+
+                  <div
+                    class="interview-card img-holder"
+                    style="--width: 376; --height: 420"
+                    data-tilt
+                  >
+                    <img
+                      src="./assets/images/interview-2.jpg"
+                      width="376"
+                      height="420"
+                      loading="lazy"
+                      alt="interview 2"
+                      class="img-cover"
+                    />
+
+                    <button class="btn btn:hover"> Internet browsing</button>
+                  </div>
+
+                  <div
+                    class="interview-card img-holder"
+                    style="--width: 376; --height: 420"
+                    data-tilt
+                  >
+                    <img
+                      src="./assets/images/football-logo.jpeg"
+                      width="376"
+                      height="420"
+                      loading="lazy"
+                      alt="interview 3"
+                      class="img-cover"
+                    />
+
+                    <button class="btn btn:hover">Foot Ball</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="tab-content" data-tab-content="awward">
+                <h2 class="h4 title section-title">
+                 Bachelor Of Engineering(2019-2023)<br><h3>HKE'S SLN college In mechanical Engineering</h3>
+                </h2>
+
+                <ul class="grid-list">
+                  <li>
+                    <div class="award-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 534; --height: 383"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/awward-1.jpg"
+                          width="534"
+                          height="383"
+                          loading="lazy"
+                          alt="certificate"
+                          class="img-cover"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="award-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 534; --height: 383"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/awward-2.jpg"
+                          width="534"
+                          height="383"
+                          loading="lazy"
+                          alt="certificate"
+                          class="img-cover"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="award-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 534; --height: 383"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/awward-3.jpg"
+                          width="534"
+                          height="383"
+                          loading="lazy"
+                          alt="certificate"
+                          class="img-cover"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                </ul>
+              </div> -->
+
+              <div class="tab-content" data-tab-content="exhibition">
+                <ul class="grid-list">
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-1.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="image"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="image-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-2.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="video"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="logo-youtube"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-3.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="music"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="logo-soundcloud"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-4.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="image"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="image-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-5.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="image"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="image-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="exhibition-card">
+                      <figure
+                        class="card-banner img-holder"
+                        style="--width: 376; --height: 200"
+                        data-tilt
+                      >
+                        <img
+                          src="./assets/images/exhibition-6.jpg"
+                          width="376"
+                          height="200"
+                          loading="lazy"
+                          alt="image"
+                          class="img-cover"
+                        />
+                      </figure>
+
+                      <div class="card-icon">
+                        <ion-icon
+                          name="image-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="section cta" aria-label="work with me">
+          <div class="container">
+            <h2 class="title h2 section-title text-center">
+              Let's Work Together On Your Next Project!
+            </h2>
+
+            <a href="#" class="btn btn:hover">
+              <span class="span">Hire Me Now</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </section>
+        
+
+        <!-- 
+        - #PROJECTS
+      -->
+
+        <section
+          class="section project"
+          aria-label="my latest projects"
+          id="project"
+        >
+          <ul class="slider-list">
+            <li class="slider-item">
+              <div class="project-card text-center">
+                <div
+                  class="card-banner img-holder has-before"
+                  style="--width: 1000; --height: 630"
+                >
+                  <img
+                    src="./assets/images/project-1.jpg"
+                    width="1000"
+                    height="763"
+                    loading="lazy"
+                    alt="Project poster: Creative & experienced digital design studio"
+                    class="img-cover"
+                  />
+
+                  <a href="#" class="btn btn:hover">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Web Template</p>
+
+                  <h3 class="title h3">
+                    <a href="#" class="card-title"
+                      >Online Tea selling of Web Template</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="project-card text-center">
+                <div
+                  class="card-banner img-holder has-before"
+                  style="--width: 1000; --height: 630"
+                >
+                  <img
+                    src="./assets/images/project-2.jpg"
+                    width="1000"
+                    height="763"
+                    loading="lazy"
+                    alt="Project poster: Front End Development & Maintenance"
+                    class="img-cover"
+                  />
+
+                  <a href="#" class="btn btn:hover">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Calculator</p>
+
+                  <h3 class="title h3">
+                    <a href="#" class="card-title"
+                      > Typing speed calculator (mvc) modules</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="project-card text-center">
+                <div
+                  class="card-banner img-holder has-before"
+                  style="--width: 1000; --height: 630"
+                >
+                  <img
+                    src="./assets/images/project-3.jpg"
+                    width="1000"
+                    height="763"
+                    loading="lazy"
+                    alt="Project poster: Flutter Framework & Warframe Design"
+                    class="img-cover"
+                  />
+
+                  <a href="#" class="btn btn:hover">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle">AS A mechanical project</p>
+
+                  <h3 class="title h3">
+                    <a href="#" class="card-title"
+                      >Electric tow vehicle</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="project-card text-center">
+                <div
+                  class="card-banner img-holder has-before"
+                  style="--width: 1000; --height: 630"
+                >
+                  <img
+                    src="./assets/images/project-4.jpg"
+                    width="1000"
+                    height="763"
+                    loading="lazy"
+                    alt="Project poster: Full Web Development Project With JavaScript"
+                    class="img-cover"
+                  />
+
+                  <a href="#" class="btn btn:hover">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Web, Product</p>
+
+                  <h3 class="title h3">
+                    <a href="#" class="card-title"
+                      >Full Web Development Project With JavaScript</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="project-card text-center">
+                <div
+                  class="card-banner img-holder has-before"
+                  style="--width: 1000; --height: 630"
+                >
+                  <img
+                    src="./assets/images/project-5.jpg"
+                    width="1000"
+                    height="763"
+                    loading="lazy"
+                    alt="Project poster: Cloud Migration & AWS Services"
+                    class="img-cover"
+                  />
+
+                  <a href="#" class="btn btn:hover">
+                    <span class="span">Project Details</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Web, Product</p>
+
+                  <h3 class="title h3">
+                    <a href="#" class="card-title"
+                      >Cloud Migration & AWS Services</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+            <div class="testi-content">
+              <h1 style="display: flex; justify-content: center; align-items: center; font-size: 60px;"> Our client Review's</h1>
+
+                <div class="reviews">
+                   
+                  <div class="card-content"  style="display: block; margin: 30px;">
+                    <li class="slider-item">
+                      <div class="project-card text-center">
+                        <div
+                          class="card-banner img-holder has-before"
+                          style="--width: 50px; --height: 50px"
+                        >
+                        <div class="profile-card">
+                        
+                          <div class="review" id="review1">
+                            <blockquote class="title h4 section-text">
+                                &ldquo; I want to express my heartfelt gratitude to you and me
+                                for your exceptional leadership and unwavering dedication.
+                                Your guidance, invaluable contributions,
+                                has created a positive and collaborative work environment,
+                                making our team truly outstanding.&rdquo;
+                            </blockquote>
+                            
+                            <div class="profile-card">
+                                <figure class="card-banner img-holder" style="--width: 150px; --height: 150px">
+                                    <img src="./assets/images/client.png" width="150" height="150" loading="lazy"
+                                        alt="Alexis Browni JR." class="img-cover" />
+                                </figure>
+                                <div>
+                                    <p class="title h5 card-title">Veena</p>
+                                    <p class="card-subtitle">Software Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                          
+                          <div>
+        
+                          <a href="#" class="btn btn:hover">
+                            <span class="span">Review Details</span>
+        
+                            <ion-icon
+                              name="arrow-forward"
+                              aria-hidden="true"
+                            ></ion-icon>
+                          </a>
+                        </div>
+        
+                       
+                      </div>
+                    </li>
+                  </div>
+
+
+
+
+      <div class="card-content"  style="display: block; margin: 30px;">
+            <li class="slider-item">
+                <div class="project-card text-center">
+                  <div
+                    class="card-banner img-holder has-before"
+                    style="--width: 50px; --height: 50px"
+                  >
+                  <div class="profile-card">
+                  
+                    <div class="review" id="review1">
+                      <blockquote class="title h4 section-text">
+                          &ldquo; Thank you for your outstanding leadership and dedication.
+                          Your guidance and contributions have fostered a positive and collaborative work environment,
+                          making our team truly exceptional&rdquo;
+                      </blockquote>
+                      
+                      <div class="profile-card">
+                          <figure class="card-banner img-holder" style="--width: 150px; --height: 150px">
+                              <img src="./assets/images/client.png" width="150" height="150" loading="lazy"
+                                  alt="Alexis Browni JR." class="img-cover" />
+                          </figure>
+                          <div>
+                              <p class="title h5 card-title">rajesh</p>
+                              <p class="card-subtitle">Intern</p>
+                          </div>
+                      </div>
+                  </div>
+                    
+                    <div>
+  
+                    <a href="#" class="btn btn:hover">
+                      <span class="span">Review Details</span>
+  
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+                </div>
+
+
+
+<div style="display: block; margin: 30px;">
+              <li class="slider-item">
+                <div class="project-card text-center">
+                  <div
+                    class="card-banner img-holder has-before"
+                    style="--width: 50px; --height: 50px"
+                  >
+                  <div class="profile-card">
+                  
+                    <div class="review" id="review1">
+                      <blockquote class="title h4 section-text">
+                          &ldquo; I extend my deepest gratitude to you for your exceptional leadership and unwavering dedication.
+                          Your guidance, invaluable contributions,
+                          has cultivated a positive and collaborative work environment,
+                          making our team truly outstanding.&rdquo;
+                      </blockquote>
+                      
+                      <div class="profile-card">
+                          <figure class="card-banner img-holder" style="--width: 150px; --height: 150px">
+                              <img src="./assets/images/client.png" width="150px" height="150px"
+                                  alt="Alexis Browni JR." class="img-cover" />
+                          </figure>
+                          <div>
+                              <p class="title h5 card-title">shailaja</p>
+                              <p class="card-subtitle">Software Developer</p>
+                          </div>
+                      </div>
+                  </div>
+                    
+                    <div>
+  
+                    <a href="#" class="btn btn:hover">
+                      <span class="span">Review Details</span>
+  
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+  
+                 
+                </div>
+              </li>
+            </div>
+              
+                <div class="scroll-button">
+                  <button id="scrollLeftButton" onclick="scrollToPreviousReview()">Scroll Left</button>
+                  <button id="scrollRightButton" onclick="scrollToNextReview()">Scroll Right</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+        <!-- 
+        - #CONTACT
+      -->
+      <section class="section contact" aria-label="contact">
+        <div class="container" style="background-color: rgb(36, 32, 28);">
+      
+            <div class="contact-card">
+      
+                <div class="contact-content" data-reveal="left">
+      
+                    <div class="card-icon">
+                        <img src="./assets/images/about.jpeg" width="80%" height="65%" loading="lazy" alt="envelop icon">
+                    </div>
+      
+                    <h2 class="h2 section-title">Let's Work Together</h2>
+      
+                    <p class="section-text" style="font-size: 20px; margin-right: 50px; margin-top: 70px; color: rgb(123, 161, 134);" >
+                        If you like what you see, I bring rapid solutions to make the life of my clients easier. Have any questions?
+                        Reach out to me using the form below, and I will get back to you shortly.
+                    </p>
+      
+                </div>
+    
+                <!-- Move the opening div tag here -->
+                <form action="process_form.php" method="post" class="contact-form" data-reveal="right">
+                    <div>
+                        <div class="input-wrapper">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required class="input-field">
+                            <input type="email" id="email" name="email_address" placeholder="Your Email" required class="input-field">
+                        </div>
+                        <textarea id="message" name="message" placeholder="Your Message" required class="input-field"></textarea>
+                        <button type="submit" class="btn btn-secondary" name="btn-send">Send Message</button>
+                    </div>
+                </form>
+      
+            </div>
+      
+        </div>
+    </section>
+    
+      
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">Copyright & Design By @SURESH S - 2024</p>
+
+        <a href="#top" class="back-top-btn">
+          <span class="span">Back To Top</span>
+
+          <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+    </footer>
+
+    <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+    <div class="cursor-dot" data-cursor></div>
+    <div class="cursor-outline" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+
+<script>
+    let currentReview = 1;
+
+    function scrollToNextReview() {
+        currentReview++;
+        if (currentReview > document.querySelectorAll('.review').length) {
+            currentReview = 1; // Loop back to the first review
+        }
+        const nextReview = document.getElementById(`review${currentReview}`);
+        nextReview.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+</script>
+
+
+
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
